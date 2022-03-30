@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <h1>Network</h1> 
+        </div>
+        <h1 id="feed">Your Feed</h1>
+        <div class="main">
+            <div class="left">
+                <img src="user-circle.png" alt="jamesdoepicture">
+                <h2 id="avatar"> <a href="avatar">Add an avatar</a> </h2>
+                <h2>James Doe</h2>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <div class="like">
+                        <h2>Neil M</h2>
+                        <div class="like2">
+                            <a id="totallikes" href="#">3</a> like(s)  
+                            <button onclick="countup()" class="lbutton">Like</button>
+                        </div>
+                    </div>
+                    <p>I just set  up this new discord bot, let me know what you think. <a href="link">link</a></p>
+                </div>
+                <div class="card">
+                    <div class="like">
+                        <h2>Nichole K</h2>
+                        <div class="like2">
+                            <a id="totallikes1" href="#">12</a> like(s)  
+                            <button onclick="countup1()" class="lbutton">Like</button>
+                        </div>
+                    </div>
+                    <p>Just finished my  <a href="link">next comic</a>, check it out.</p>
+                </div>
+                <div class="card">
+                    <div class="like">
+                        <h2>Jim R</h2>
+                        <div class="like2">
+                            <a id="totallikes2" href="#">9</a> like(s)  
+                            <button onclick="countup2()" class="lbutton">Like</button>
+                        </div>
+                    </div>
+                    <p>I just set  up this new discord bot, let me know what you think. <a href="link">link</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./like.js"></script>
+</body>
+</html>
